@@ -37,7 +37,7 @@ var welcomeNote = "Welcome to the team, "+fName +" "+lName +"! We're excited to 
 
 document.write("<h1>"+fullName+"</h1>"+ "<p>"+ welcomeNote+ "</p>")
 
-document.write("<h1>"+fullName+"</h1>"+ "<p>"+"Welcome to the team, "+fName +" "+lName +"! We're excited to work with you and see your contributions.On behalf of everyone, welcome! We're looking forward to achieving great things together.We're delighted to have you join us. Your skills are a perfect fit, and we can't wait sewhat you'll accomplish. Welcome aboard! Feel free to reach out with any questions as you settle in. </p>")
+document.write("<h1 class='heading'>"+fullName+"</h1>"+ "<p>"+"Welcome to the team, "+fName +" "+lName +"! We're excited to work with you and see your contributions.On behalf of everyone, welcome! We're looking forward to achieving great things together.We're delighted to have you join us. Your skills are a perfect fit, and we can't wait sewhat you'll accomplish. Welcome aboard! Feel free to reach out with any questions as you settle in. </p>")
 
 
 document.write("<h2> Umra Badar </h2>")
