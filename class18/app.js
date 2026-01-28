@@ -65,9 +65,7 @@ for(var i = word.length-1 ; i>=0; i--){
 }
 console.log(result);
 if(word == result){
-    console.log("Its A Palindrome word");
-    
-}else{
-    
+    console.log("Its A Palindrome word");   
+}else{  
     console.log("Its not A Palindrome word");
 }
