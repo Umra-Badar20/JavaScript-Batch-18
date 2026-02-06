@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        input{
+            padding: 5px;
+        }
+        input:focus{
+            outline: none;
+        }
+        button{
+            background-color: cadetblue;
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            color: aliceblue;
+        }
+        button:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: 1.5s;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Average Calculator</h1>
+    <input
+      type="number"
+      name="subject1"
+      id="subject1"
+      placeholder="Enter marks for subject 1:"
+      
+    />
+    <br /><br />
+    <input
+      type="number"
+      name="subject2"
+      id="subject2"
+      placeholder="Enter marks for subject 2:"
+    />
+    <br /><br />
+    <input
+      type="number"
+      name="subject3"
+      id="subject3"
+      placeholder="Enter marks for subject 3:"
+    />
+    <br /><br />
+    <input
+      type="number"
+      name="subject4"
+      id="subject4"
+      placeholder="Enter marks for subject 4:"
+    />
+    <br /><br />
+
+    <button onclick="calculateAvg()">Calculate Average</button>
+
+    <p id="average"></p>
+
+
+    <h1>Palindrome Checker</h1>
+    <input type="text" id="word" placeholder="Enter a Palindrome:"><br><br>
+    <button onclick="palindromeChecker()">Check Palindrome</button>
+
+    <p id="result"></p>
+ <!-- <button onclick="calculate(9)">9</button> -->
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
