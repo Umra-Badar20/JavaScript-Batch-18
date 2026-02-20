@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+
+    <input type="text" onfocus="this.style.backgroundColor='pink'" onblur="this.style.backgroundColor='yellow'"><br><br>
+
+    <input type="text" onfocus="focusState(this)" onblur="blurState(this)"><br><br>
+    
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb7LsjJyWD1678fgE1OUR8cFVXH-q9HzU9Cg&s"
+      alt=""
+      onmouseover="src = 'https://i.makeagif.com/media/1-19-2024/IcwEU5.gif'"
+      onmouseout="
+        src =
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb7LsjJyWD1678fgE1OUR8cFVXH-q9HzU9Cg&s'
+      "
+    />
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ba/f5/c6/the-best-pizza-we-ever.jpg?w=1200&h=1200&s=1" alt="" srcset="" onmouseover="bordercolor(this)" onmouseout="borderchange(this)">
+    
+
+
+    <br />
+    <img
+      src="images/Capture.PNG"
+      alt=""
+      onmouseover="on(this)"
+      onmouseout="off(this)"
+    />
+
+    <a href="#" onclick="greet('Umra')">Link</a>
+    <button onclick="greet('Smit')">Click me</button>
+    <script src="app.js"></script>
+  </body>
+</html>
