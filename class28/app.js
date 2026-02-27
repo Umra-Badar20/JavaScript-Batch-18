@@ -10,12 +10,19 @@ function animateChar() {
         char1.style.left = left +"px"
         char1.src = "https://www.fightersgeneration.com/characters/alicewf.gif"
         char1.style.transform= "scaleX(1)"
+         setTimeout(()=>{
+            char1.src = 'https://www.fightersgeneration.com/characters/alicestance.gif'
+        },1000)
 
      }
      if(event.keyCode == 65 && left > 10) {   
         left = left -10 
         char1.style.left = left+ "px"
         char1.style.transform= "scaleX(-1)"
+      char1.src = "https://www.fightersgeneration.com/characters/alicewf.gif"
+setTimeout(()=>{
+            char1.src = 'https://www.fightersgeneration.com/characters/alicestance.gif'
+        },1000)
      }
      if(event.keyCode === 32){
         char1.src = "https://www.fightersgeneration.com/np8/char/alice-chi.gif"
