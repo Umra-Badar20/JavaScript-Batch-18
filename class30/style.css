@@ -1,0 +1,18 @@
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+#car{
+    height: 500px;
+    width: 700px;
+}
+.juice{
+    height: 500px;
+    width: 700px;
+}
+.imgStyling{
+    border-radius: 10px;
+    border: 2px solid gray;
+}
