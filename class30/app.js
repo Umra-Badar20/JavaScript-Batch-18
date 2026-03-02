@@ -5,7 +5,7 @@ function showList() {
         <li>Islamabad</li>
         <li>Multan</li>
         <li>Sawat</li>
-    </ul>`;
+    </ul>`
 }
 function hideImg() {
   var car = document.getElementById("car");
