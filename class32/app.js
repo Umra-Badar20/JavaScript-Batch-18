@@ -10,5 +10,3 @@ var box1 = container.firstChild
 // console.log(box1.nextSibling.nextSibling);
 console.log(box1.nextElementSibling.nextElementSibling);
 console.log(container.lastChild);
-
-
