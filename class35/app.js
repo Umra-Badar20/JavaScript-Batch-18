@@ -38,9 +38,10 @@ document.getElementById("table").innerHTML=`  <tr>
             <td>${student2.class}</td>
             <td>${student2.enrolled}</td>
             <td>${student2.days}</td>
+
         </tr>`
 
 
 
 
-console.log(student1.days[1]);
+console.log(student1.days[2]);
