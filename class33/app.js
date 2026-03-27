@@ -5,9 +5,12 @@ function deletePost(){
 }
 function editPost(){
     var card = event.target.parentNode.parentNode
-    var title =card.children
-  console.log(title);
-  
+    var title =card.children[1].children[0].children[0].children[0].innerText
+    var description =card.children[1].children[0].children[1].innerText
+    document.getElementById("title").value = title
+    document.getElementById("description").value = description
+    card.remove()
+  console.log(title, description);
 }
 function post(){
     var title = document.getElementById("title")
